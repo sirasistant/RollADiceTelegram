@@ -19,7 +19,7 @@ var handleMessage=function(message){
             sides = possibleNumber;
           }
         }
-        sendMessage(chatId,""+ (Math.floor(Math.random()*sides)+1));
+        sendMessage(chatId,sides+" sides -> "+ (Math.floor(Math.random()*sides)+1));
       break;
     }
 };
